@@ -7,7 +7,7 @@
     body {
       font-family: sans-serif;
       text-align: center;
-      padding-top: 80px;
+      padding-top: 60px;
     }
     .btn {
       padding: 15px 30px;
@@ -28,9 +28,27 @@
     .go-button.active {
       background-color: #28a745;
     }
+    .disclosure {
+      font-size: 14px;
+      color: #555;
+      background-color: #f9f9f9;
+      border: 1px solid #eee;
+      border-radius: 8px;
+      padding: 12px;
+      width: fit-content;
+      margin: 0 auto 40px auto;
+      line-height: 1.5;
+    }
   </style>
 </head>
 <body>
+
+  <!-- ✅ 공정위 문구 -->
+  <div class="disclosure">
+    본 페이지는 <strong>쿠팡파트너스 활동</strong>의 일환으로,<br>
+    해당 링크를 통해 구매 시 <strong>일정액의 수수료를 제공받을 수 있습니다.</strong><br>
+    이 내용은 <strong>공정거래위원회 ‘추천·보증 등에 관한 표시·광고 지침’</strong>을 준수합니다.
+  </div>
 
   <h2>📢 광고를 먼저 봐주세요!</h2>
   <p>쿠팡 광고를 클릭하면 자료 다운로드 버튼이 활성화됩니다.</p>
